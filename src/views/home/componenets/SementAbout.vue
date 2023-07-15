@@ -61,9 +61,30 @@
         </aos-vue>
        
         <div class="title-sement">
-            <p>mahsulotlarimiz haqida qisqacha ma'lumot</p>
-            <div class="sement-about">
-                
+            <p>Mahsulotlarimiz haqida qisqacha ma'lumot</p>
+            <div class="sement-about-title">
+                    <h1>Gost 31108-2003 talablariga muvofiq M500 sement
+quyidagi xususiyatlarga ega bo'lishi kerak:</h1>
+
+                        <pre>
+Siqish kuchi (28 kundan keyin) — kamida 40 MPa;
+O’rnatishning boshlanishi (vaqti) — kamida 50 daqiqa;
+Ovoz o’zgarishining bir xilligi-10 mm dan oshmaydi;
+Sovuqqa chidamliligi — 70 tsikl to’liq muzlash/eritish.
+
+Portlend sement M500 og’ir beton,  gipsli  tayyorlash uchun ishlatiladi. Ushbu Sementga
+asoslangan beton va temir-beton mahsulotlari yuqori quvvat, barqarorlik, agressiv
+muhitga qarshilik, chidamlilik bilan ajralib turadi. 500-markali tsement fuqarolik va sanoat
+maqsadlarida mas’uliyatli qurilish inshootlarini qurishda muvaffaqiyatli qo’llanilmoqda:
+
+masshtabli ob’ektlarning poydevorini qo’yish uchun;
+yulka plitalari, kengaytirilgan loy beton bloklari va boshqa qurilish-pardozlash
+materiallarini ishlab chiqarishda;
+ko’prik o’tish joylari va boshqa yuk ko’taruvchi inshootlarni qurish uchun;
+gidrotexnik inshootlarni qurishda;
+Suv bosgan tuproqlarda qoziq poydevorlarini to’ldirish uchun;
+                        </pre>
+
             </div>
         </div>
         </div>
@@ -287,5 +308,19 @@ strong {
 		opacity: 1;
 	}
 }
-
+.title-sement {
+    padding-top: 180px;
+    p{
+        text-align: center;
+        font-size: 25px;
+    }
+    pre{
+        color: #000;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 25.2px;
+    }
+}
 </style>
