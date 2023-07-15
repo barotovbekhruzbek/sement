@@ -1,0 +1,291 @@
+<template>
+  <div class="sement-about">
+    <div class="container">
+        <div class="left-content">
+            <div class="title">
+            <h1>PORTLEND SEMENTINING 
+            YETAKCHI YETKAZIB 
+            BERUVCHILARDAN BIRI</h1>
+            <h2>Sement haqida</h2>
+
+        </div>
+        <aos-vue animation="fade-up" :duration="500">
+            <div class="sement-card">
+
+
+<div class="canvas-wrapper">
+<a href="#" class="canvas">
+<div class="canvas_border">
+<svg>
+    <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+    <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+</svg>
+</div>
+<div class="canvas_img-wrapper">
+<img class="canvas_img" src="../../../assets/images/card-sement/marka400.png" alt="">
+</div>
+<div class="canvas_copy canvas_copy--left">
+<span class="canvas_copy_subtitle">Buxoro cement plant</span>
+<strong class="canvas_copy_title">   M500 </strong>
+<strong class="canvas_copy_title"> Portlend Sement</strong>
+<span class="canvas_copy_details">kulrang</span>
+</div>
+</a>
+<a href="#" class="canvas">
+<div class="canvas_border">
+<svg>
+    <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+    <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+</svg>
+</div>
+<div class="canvas_img-wrapper">
+<img class="canvas_img" src="../../../assets/images/card-sement/500marka.png" alt="">
+</div>
+<div class="canvas_copy">
+<span class="canvas_copy_subtitle">Buxor cement plant
+</span>
+<strong class="canvas_copy_title">M400</strong>
+<strong class="canvas_copy_title">Portlend Sement</strong>
+<span class="canvas_copy_details">Oq</span>
+</div>
+</a>
+</div>
+<!-- <div class="card-img">
+    <img src="../../../assets/images/card-sement/500marka.png" alt="">
+</div>
+<div class="card-img">
+    <img src="../../../assets/images/card-sement/marka400.png" alt="">
+</div> -->
+</div>
+
+        </aos-vue>
+       
+        <div class="title-sement">
+            <p>mahsulotlarimiz haqida qisqacha ma'lumot</p>
+            <div class="sement-about">
+                
+            </div>
+        </div>
+        </div>
+       
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="scss" scoped>
+.sement-about {
+    padding-top: 60px;
+}
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+    
+        .title {
+            padding-bottom: 130px;
+            text-align: center;
+            h1{
+                color: #001C31;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 14px; 
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            h2{
+                padding-top: 25px;
+                color: #437E4A;
+                text-align: center;
+                font-family: Odor Mean Chey;
+                font-size: 40.6px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40.6px; 
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    $transition-ease-in-out: all .25s ease-in-out 0s;
+$transition-cubic-bezier : all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+$animation-offset: 80px;
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+	font-family: "Lato", sans-serif;
+	background: #eee;
+	padding: 100px 60px;
+	animation: fade-in 3s ease-in-out forwards;
+}
+strong {
+	font-weight: 900;
+}
+.canvas-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+    gap: 100px;
+	
+	.canvas + .canvas {
+		margin-left: 40px;
+	}
+}
+.canvas {
+	position: relative;
+	display: block;
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+	color: inherit;
+	text-decoration: none;
+}
+.canvas_border {
+	position: absolute;
+	top: 40px;
+	left: -40px;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+
+	svg {
+		height: 100%;
+		width: 100%;
+	}
+}
+.rect-gradient {
+	stroke-dasharray: 2000;
+	stroke-dashoffset: 2000;
+	animation: erase-line 1s ease-in-out forwards;
+}
+.canvas_img-wrapper {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform: rotate(-10deg) skew(-10deg);
+	overflow: hidden;
+	background: white;
+}
+.canvas_img {
+	transform: scale3d(.9,.9,.9);
+	opacity: .3;
+	max-width: 386.52px;
+	max-height: 458.39px;
+
+}
+.canvas_copy {
+	position: absolute;
+	bottom: 0;
+	left: 85%;
+	text-transform: uppercase;
+	color: #112c14;
+	z-index: 100;
+}
+.canvas_copy--left {
+	left: -25%;
+}
+.canvas_copy_title {
+	font-size: 62px;
+	display: block;
+	transform: translateX(-#{$animation-offset});
+		transition: $transition-cubic-bezier 0s;
+		color: black;
+
+		&:nth-child(1) {
+			transition-delay: 0.1s;
+			}
+		&:nth-child(2) {
+			transition-delay: 0.2s;
+			}
+}
+.canvas_copy_subtitle {
+	display: block;
+	transform: rotate(270deg) translateY(-100%) translateX(calc(-100% - #{$animation-offset}));
+	transform-origin: top left;
+	position: absolute;
+	left: 0;
+	top: 8px; //This needs to change with font size. It's an offset for the line-height of the "hellow world"
+	font-size: 24px;
+	font-weight: 900;
+	transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.35s;
+
+}
+.canvas_copy_details {
+	display: block;
+	transition: $transition-cubic-bezier 0.14s;
+	transform: translateX(-#{$animation-offset});
+		}
+.canvas_border, .canvas_img-wrapper, .canvas_img  {
+	transition: $transition-ease-in-out;	
+}
+.canvas_border, .canvas_img-wrapper {
+	transform: rotate(-10deg) skew(-10deg);	
+}
+.canvas_copy_title, .canvas_copy_subtitle, .canvas_copy_details {
+	opacity: 0;
+}
+.canvas:hover {
+	.canvas_copy_title, .canvas_copy_subtitle, .canvas_copy_details, .canvas_img {
+		opacity: 1;
+	}
+	.canvas_border, .canvas_img-wrapper {
+		transform: rotate(-14deg) skew(-14deg) scale(0.96);
+	}
+	.canvas_img {
+		transform: scale3d(1,1,1);
+	}
+	.canvas_copy_title, .canvas_copy_details {
+		transform: translateX(0);
+	}
+	.canvas_copy_subtitle {
+		transform: rotate(270deg) translateY(-100%) translateX(-100%);
+	}
+	.rect-gradient {
+		animation: draw-line 3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+	}
+}
+
+@keyframes draw-line {
+	from {
+		stroke-dashoffset: 2000;		
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@keyframes erase-line {
+	from {
+		stroke-dashoffset: 0;
+	}
+	to {
+		stroke-dashoffset: 2000;		
+	}
+}
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+</style>
