@@ -65,10 +65,13 @@
             <div class="sement-about-title">
                     <h1>Gost 31108-2003 talablariga muvofiq M500 sement
 quyidagi xususiyatlarga ega bo'lishi kerak:</h1>
+<p>Siqish kuchi (28 kundan keyin) — kamida 40 MPa;</p>
+<p>O’rnatishning boshlanishi (vaqti) — kamida 50 daqiqa;</p>
 
                         <pre>
-Siqish kuchi (28 kundan keyin) — kamida 40 MPa;
-O’rnatishning boshlanishi (vaqti) — kamida 50 daqiqa;
+                            
+
+
 Ovoz o’zgarishining bir xilligi-10 mm dan oshmaydi;
 Sovuqqa chidamliligi — 70 tsikl to’liq muzlash/eritish.
 
@@ -106,7 +109,9 @@ export default {
     .container{
         max-width: 1440px;
         margin: 0 auto;
-    
+        @media (max-width:1400px) {
+            max-width: 900px;
+    }
         .title {
             padding-bottom: 130px;
             text-align: center;
@@ -119,7 +124,11 @@ export default {
                 letter-spacing: 4px;
                 text-transform: uppercase;
                 text-align: center;
+                @media (max-width:1400px) {
+                    line-height: 40px;
+    }
             }
+      
             h2{
                 padding-top: 25px;
                 color: #437E4A;
@@ -160,7 +169,9 @@ strong {
 	justify-content: center;
 	height: 100%;
     gap: 100px;
-	
+    @media (max-width:1400px) {
+         flex-direction: column;
+    }
 	.canvas + .canvas {
 		margin-left: 40px;
 	}
@@ -310,6 +321,10 @@ strong {
 }
 .title-sement {
     padding-top: 180px;
+
+    @media(max-width:1440px) {
+        padding-left: 25px;
+    }
     p{
         text-align: center;
         font-size: 25px;
@@ -321,6 +336,10 @@ strong {
         font-style: normal;
         font-weight: 300;
         line-height: 25.2px;
+        @media(max-width:1440px) {
+            width: auto;
     }
+    }
+    
 }
 </style>
