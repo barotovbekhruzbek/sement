@@ -47,6 +47,9 @@ header {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    @media (max-width:1400px) {
+            max-width: 900px;
+    }
 }
 .navbar {
     padding-top: 17px;
@@ -54,6 +57,10 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
+
+    @media (max-width:1400px) {
+
+    }
     .menu-link {
         color: #FFF;
         font-family: Montserrat;
@@ -61,6 +68,9 @@ header {
         font-style: normal;
         font-weight: 500;
         line-height: 28px;
+        @media (max-width:1400px) {
+            display: none;
+        }
         div {
             display: flex;
             gap: 25px;
