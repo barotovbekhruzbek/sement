@@ -20,6 +20,15 @@
         </aos-vue>
        </div>
     </SplideSlide>
+    <SplideSlide>
+       <div class="logo3">
+        <aos-vue >
+        <div class="title">
+        <h1> Biz Sanoatga inovatsiya va osishda yordam beramiz</h1>
+       </div>
+        </aos-vue>
+       </div>
+    </SplideSlide>
   </Splide>
 </div>
 </template>
@@ -41,16 +50,28 @@ export default {
     .logo {
         width: 100%;
         height: 100%;
-        background: url("../../../assets/images/slider/img1.jpg");
+        background: url("../../../assets/images/slider/slider1\ \(2\).jpg");
         min-height: 90vh;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center center;
     }
     .logo2 {
         width: 100%;
         background: url("../../../assets/images/slider/img5.png");
         height: 90vh;
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+    .logo3 {
+        width: 100%;
+        background: url("../../../assets/images/slider/slider1\ \(1\).jpg");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
       
         
     }
