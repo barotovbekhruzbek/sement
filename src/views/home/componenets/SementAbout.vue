@@ -42,7 +42,7 @@
 <img class="canvas_img" src="../../../assets/images/card-sement/500marka.png" alt="">
 </div>
 <div class="canvas_copy">
-<span class="canvas_copy_subtitle">Buxor cement plant
+<span class="canvas_copy_subtitle">Buxoro cement plant
 </span>
 <strong class="canvas_copy_title">M400</strong>
 <strong class="canvas_copy_title">Portlend Sement</strong>
@@ -50,12 +50,7 @@
 </div>
 </a>
 </div>
-<!-- <div class="card-img">
-    <img src="../../../assets/images/card-sement/500marka.png" alt="">
-</div>
-<div class="card-img">
-    <img src="../../../assets/images/card-sement/marka400.png" alt="">
-</div> -->
+
 </div>
 
         </aos-vue>
@@ -68,14 +63,14 @@ quyidagi xususiyatlarga ega bo'lishi kerak:</h1>
 <p>Siqish kuchi (28 kundan keyin) — kamida 40 MPa;</p>
 <p>O’rnatishning boshlanishi (vaqti) — kamida 50 daqiqa;</p>
 
-                        <pre>
+                    
                             
 
 
-Ovoz o’zgarishining bir xilligi-10 mm dan oshmaydi;
-Sovuqqa chidamliligi — 70 tsikl to’liq muzlash/eritish.
+<p>Ovoz o’zgarishining bir xilligi-10 mm dan oshmaydi;</p>
+<p>Sovuqqa chidamliligi — 70 tsikl to’liq muzlash/eritish.</p>
 
-Portlend sement M500 og’ir beton,  gipsli  tayyorlash uchun ishlatiladi. Ushbu Sementga
+<p>Portlend sement M500 og’ir beton,  gipsli  tayyorlash uchun ishlatiladi. Ushbu Sementga
 asoslangan beton va temir-beton mahsulotlari yuqori quvvat, barqarorlik, agressiv
 muhitga qarshilik, chidamlilik bilan ajralib turadi. 500-markali tsement fuqarolik va sanoat
 maqsadlarida mas’uliyatli qurilish inshootlarini qurishda muvaffaqiyatli qo’llanilmoqda:
@@ -85,8 +80,8 @@ yulka plitalari, kengaytirilgan loy beton bloklari va boshqa qurilish-pardozlash
 materiallarini ishlab chiqarishda;
 ko’prik o’tish joylari va boshqa yuk ko’taruvchi inshootlarni qurish uchun;
 gidrotexnik inshootlarni qurishda;
-Suv bosgan tuproqlarda qoziq poydevorlarini to’ldirish uchun;
-                        </pre>
+Suv bosgan tuproqlarda qoziq poydevorlarini to’ldirish uchun;</p>
+                        
 
             </div>
         </div>
@@ -326,10 +321,10 @@ strong {
         padding-left: 25px;
     }
     p{
-        text-align: center;
+        padding: 1rem;
         font-size: 25px;
     }
-    pre{
+    p{
         color: #000;
         font-family: Poppins;
         font-size: 22px;
