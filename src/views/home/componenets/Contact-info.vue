@@ -1,6 +1,10 @@
 <template>
-  <div class="contact-info">
+     <aos-vue animation="fade-up" :duration="500">
+        <div class="contact-info">
     <div class="container">
+        <div class="title">
+            Bizning ustunliklarimiz
+        </div>
         <div class="wrapper">
             <div class="box">
                 <div class="logo">
@@ -30,6 +34,8 @@ mutaxassislar</h3>
         </div>
     </div>
   </div>
+    </aos-vue>
+
 </template>
 
 <script>
@@ -46,8 +52,21 @@ export default {
             max-width: 900px;
     }
 }
+.title {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
 .wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:8px;
 }
 </style>
