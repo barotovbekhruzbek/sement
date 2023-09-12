@@ -1,6 +1,6 @@
 <template>
-     <aos-vue animation="fade-up" :duration="500">
-        <div class="contact-info">
+   <div class="contact-info">
+    <aos-vue animation="fade-up" :duration="500">
     <div class="container">
         <div class="title">
             Bizning ustunliklarimiz
@@ -33,9 +33,8 @@ mutaxassislar</h3>
             </div>
         </div>
     </div>
+</aos-vue>
   </div>
-    </aos-vue>
-
 </template>
 
 <script>
@@ -48,9 +47,7 @@ export default {
   .container{
         max-width: 1440px;
         margin: 0 auto;
-        @media (max-width:1400px) {
-            max-width: 900px;
-    }
+     
 }
 .title {
     padding-top: 50px;
@@ -62,6 +59,7 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 20px;
 }
 .box {
     display: flex;
