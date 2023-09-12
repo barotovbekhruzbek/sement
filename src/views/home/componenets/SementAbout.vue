@@ -85,6 +85,17 @@ Suv bosgan tuproqlarda qoziq poydevorlarini to’ldirish uchun;</p>
 
             </div>
         </div>
+		<div class="sem-about">
+			<div class="sem-about-main">
+				<h4>ishlab chiqarilayotgan mahsulotlarimiz:</h4>
+			</div>
+			<div class="sem-about-title">
+				<p><i class="fa-solid fa-check"></i> "Bukhara Euro Sement" tomonidan Oq Portlend Sement M500</p>
+				<p><i class="fa-solid fa-check"></i> "Bukhara Euro Sement" tomonidan Oq Portlend Sement M500</p>
+				<p><i class="fa-solid fa-check"></i> "Bukhara Euro Sement" tomonidan Oq Portlend Sement M500</p>
+				<p><i class="fa-solid fa-check"></i> "Bukhara Euro Sement" tomonidan Oq Portlend Sement M500</p>
+			</div>
+		</div>
         </div>
        
     </div>
@@ -166,6 +177,7 @@ strong {
     gap: 100px;
     @media (max-width:1400px) {
          flex-direction: column;
+		 padding: 1rem;
     }
 	.canvas + .canvas {
 		margin-left: 40px;
@@ -336,5 +348,32 @@ strong {
     }
     }
     
+}
+.sem-about {
+	padding-top: 20px;
+	color: #F07427;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 13px; /* 100% */
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+
+	.sem-about-title {
+		padding-top: 25px;
+		color: #000;
+		font-family: Open Sans;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 26px; 
+		p{
+			i{
+				color: #0C5B5B;
+			}
+		}
+	}
 }
 </style>
