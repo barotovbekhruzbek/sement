@@ -10,6 +10,26 @@
         Islab chikarilayotgan sement mahsoloti O`zDst 761-96, GOST 31108-2020, GOST 30515-2015 meyoriy hujjatlarga mos keladi.
     </div>
   </div>
+
+  <div class="lab-about-title">
+    <div class="left-content">
+        <p>Sement zavodida texnalogig jarayanlar  yoqori darajada avtomatlashtirilgan zamonaviy jixozlar
+ornatilgan.</p>
+        <p>Sement zavodida texnalogig jarayanlar  yoqori darajada avtomatlashtirilgan zamonaviy jixozlar
+ornatilgan.</p>
+        <p>Sement zavodida texnalogig jarayanlar  yoqori darajada avtomatlashtirilgan zamonaviy jixozlar
+ornatilgan.</p>
+        <p>Sement zavodida texnalogig jarayanlar  yoqori darajada avtomatlashtirilgan zamonaviy jixozlar
+ornatilgan.</p>
+        <p>Sement zavodida texnalogig jarayanlar  yoqori darajada avtomatlashtirilgan zamonaviy jixozlar
+ornatilgan.</p>
+        <p>Sement zavodida texnalogig jarayanlar  yoqori darajada avtomatlashtirilgan zamonaviy jixozlar
+ornatilgan.</p>
+    </div>
+    <div class="right-content">
+        <img src="../../../assets/images/card-sement/lab.jpg" alt="">
+    </div>
+  </div>
 </template>
 
 <script>

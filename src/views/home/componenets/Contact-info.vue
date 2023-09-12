@@ -1,7 +1,8 @@
 <template>
    <div class="contact-info">
-    <aos-vue animation="fade-up" :duration="500">
+  
     <div class="container">
+        <aos-vue animation="fade-up" :duration="500">
         <div class="title">
             Bizning ustunliklarimiz
         </div>
@@ -32,8 +33,9 @@ mutaxassislar</h3>
                 </div>
             </div>
         </div>
+    </aos-vue>
     </div>
-</aos-vue>
+
   </div>
 </template>
 
