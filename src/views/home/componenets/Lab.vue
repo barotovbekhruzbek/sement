@@ -11,7 +11,8 @@
     </div>
   </div>
 
-  <div class="lab-about-title">
+  <div class="container">
+    <div class="lab-about-title">
     <div class="left-content">
         <p>Sement zavodida texnalogig jarayanlar  yoqori darajada avtomatlashtirilgan zamonaviy jixozlar
 ornatilgan.</p>
@@ -29,6 +30,7 @@ ornatilgan.</p>
     <div class="right-content">
         <img src="../../../assets/images/card-sement/lab.jpg" alt="">
     </div>
+  </div>
   </div>
 </template>
 
@@ -72,4 +74,33 @@ export default {
         font-weight: 400;
         line-height: 26.18px; /* 170% */
     }
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+
+        .lab-about-title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .left-content {
+                padding: 4rem;
+                color: #000;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29.4px; 
+            }
+            .right-content {
+                padding: 2rem;
+                width: 400px;
+                height: 400px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+     
+}
 </style>
